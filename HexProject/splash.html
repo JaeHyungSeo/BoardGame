@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SPLASH HEX SEOUL</title>
+    <link rel="stylesheet" href="splashStyle.css">
+    <script src="splashScript.js" defer></script>
+  </head>
+  <body background="https://i.postimg.cc/1zkvt8Q8/skyline.png" alt="Seoul skyline"> 
+    <main>
+      <section id="left">
+          <h1 class='title'> <p class="title1">HEX &nbsp;</p><p class="title2">SEOUL</p></h1>
+      </section>
+      <section id="right">
+          <form action="/play" method="get">
+            <button class='play' type="submit">PLAY</button>
+          </form>
+            <button class="help" id='help' onclick="togglePopup()">HELP</button>
+      </section>
+      <div>
+      <ul class='stats'>
+        <li><div class='players'>players online</div></li>
+        <li><div class='gamesOngoing'>games ongoing</div></li>
+        <li><div class='gamesCompleted'>games completed</div></li>
+      </ul>
+      </div>
+      <div>
+        <img class = 'plane' src ="https://i.postimg.cc/Ls2H5gk4/Kakao-Talk-20201230-223407860.png" alt="plane">
+      </div>
+    </main>
+    <div class="popup" id="popup">
+        <div class="popupContent">
+            <p>The aim of the game is to form a line that connects the opposite sides of the color. 
+            A piece may only be placed in an empty hexagon, with one exception; when it is the first move of the second(blue) player, 
+            the player may either make a normal move or swap their piece with the first piece(red) on the board.</p>
+        </div>
+    </div>
+  </body>
+</html>
